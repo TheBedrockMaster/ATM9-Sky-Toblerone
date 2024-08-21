@@ -222,7 +222,11 @@
 		}
 		{
 			dependencies: ["537E39530360AD73"]
-			description: ["{atm9.quest.forbiddenAndArcanus.desc.stellaArcanumFeatures.1}"]
+			description: [
+				"{atm9.quest.forbiddenAndArcanus.desc.stellaArcanumFeatures.1}"
+				""
+				"{atm9.quest.forbiddenAndArcanus.desc.stellaArcanumFeatures.2}"
+			]
 			id: "34592A8F4B661D8D"
 			rewards: [
 				{
@@ -1586,6 +1590,46 @@
 			]
 			x: -7.0d
 			y: 6.5d
+		}
+		{
+			description: ["{atm9.quest.forbiddenAndArcanus.desc.rune}"]
+			id: "7378B6C5B34D18CA"
+			rewards: [{
+				count: 4
+				id: "54770C741F07D443"
+				item: "forbidden_arcanus:rune"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3A3EA30021263C41"
+				item: "forbidden_arcanus:rune"
+				type: "item"
+			}]
+			title: "{atm9.quest.forbiddenAndArcanus.rune}"
+			x: -4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"7378B6C5B34D18CA"
+				"7CF76A542529A181"
+			]
+			description: ["{atm9.quest.forbiddenAndArcanus.desc.darkrune}"]
+			id: "76343FEB5D045A21"
+			rewards: [{
+				count: 2
+				id: "7EF21DA84BAD32C7"
+				item: "forbidden_arcanus:dark_rune"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2F87F31985E1CEA5"
+				item: "forbidden_arcanus:dark_rune"
+				type: "item"
+			}]
+			title: "{atm9.quest.forbiddenAndArcanus.darkrune}"
+			x: -5.5d
+			y: 7.5d
 		}
 	]
 	title: "{atm9.chapters.28.title}"

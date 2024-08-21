@@ -1254,10 +1254,27 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "127013C8E8960B80"
-				item: "megacells:cell_component_16m"
+				id: "64E86D28A8BF898D"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "megacells:cell_component_16m"
+							}
+							{
+								Count: 1b
+								id: "extrastorage:storagepart_16384k"
+							}
+						]
+					}
+				}
+				title: "{atm9.quest.start3.storage}"
 				type: "item"
 			}]
+			title: "{atm9.quest.start3.storage}"
 			x: 8.5d
 			y: -5.5d
 		}
