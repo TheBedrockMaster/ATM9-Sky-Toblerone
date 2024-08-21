@@ -13,22 +13,6 @@
 	id: "5E31DF282998B992"
 	images: [
 		{
-			height: 0.3d
-			image: "allthetweaks:item/atm_star"
-			rotation: 0.0d
-			width: 0.3d
-			x: 3.5d
-			y: 3.5d
-		}
-		{
-			height: 0.3d
-			image: "allthetweaks:item/atm_star"
-			rotation: 0.0d
-			width: 0.3d
-			x: 24.0d
-			y: 3.4000000000000004d
-		}
-		{
 			height: 7.0d
 			image: "atm:textures/questpics/pneumaticcraft/pressure_chamber.png"
 			rotation: 0.0d
@@ -133,14 +117,6 @@
 			width: 1.0d
 			x: 5.0d
 			y: -3.0d
-		}
-		{
-			height: 1.0d
-			image: "pneumaticcraft:item/seismic_sensor"
-			rotation: 0.0d
-			width: 1.0d
-			x: 7.0d
-			y: 2.5d
 		}
 		{
 			height: 5.0d
@@ -790,51 +766,6 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["6CA01DCE1F4A0EC3"]
-			description: [
-				"{atm9.quest.pneumatic.desc.gasLift}"
-				""
-				"{image:pneumaticcraft:textures/patchouli/oil_pumping.png width:200 height:200 align:right fit:true}"
-			]
-			icon: "pneumaticcraft:gas_lift"
-			id: "0A912B2E2BE34920"
-			min_width: 250
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "7E8E9E149E98B9ED"
-					table_id: 6269051860797387566L
-					type: "random"
-				}
-				{
-					id: "4281CB04DFF3323E"
-					type: "xp"
-					xp: 100
-				}
-			]
-			subtitle: "{atm9.quest.pneumatic.subt.gasLift}"
-			tasks: [
-				{
-					id: "14E8E26455BB6C0F"
-					item: "pneumaticcraft:gas_lift"
-					type: "item"
-				}
-				{
-					count: 32L
-					id: "4DFB6DCDCBFF7A2C"
-					item: { Count: 64, id: "pneumaticcraft:drill_pipe" }
-					type: "item"
-				}
-				{
-					id: "7325980352624229"
-					item: "pneumaticcraft:seismic_sensor"
-					type: "item"
-				}
-			]
-			x: 6.0d
-			y: 2.5d
-		}
-		{
 			dependencies: [
 				"6CA01DCE1F4A0EC3"
 				"75D3F3C1D4A3EAA2"
@@ -1189,8 +1120,8 @@
 			size: 1.5d
 			subtitle: "{atm9.quest.pneumatic.subt.plastic}"
 			tasks: [{
-				id: "465E4DA026258598"
-				item: "industrialforegoing:plastic"
+				id: "4DEDBB70F8C4240B"
+				item: "pneumaticcraft:plastic"
 				type: "item"
 			}]
 			x: 14.0d
@@ -1216,32 +1147,48 @@
 				}
 			]
 			subtitle: "{atm9.quest.pneumatic.subt.autoPlastic}"
-			tasks: [{
-				id: "7D244ADE2C7FFA02"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "mysticalagriculture:rubber_seeds"
-							}
-							{
-								Count: 1b
-								id: "productivebees:configurable_honeycomb"
-								tag: {
-									EntityTag: {
-										type: "productivebees:plastic"
+			tasks: [
+				{
+					id: "7D244ADE2C7FFA02"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mysticalagriculture:rubber_seeds"
+								}
+								{
+									Count: 1b
+									id: "productivebees:configurable_honeycomb"
+									tag: {
+										EntityTag: {
+											type: "productivebees:plastic"
+										}
 									}
 								}
-							}
-						]
+							]
+						}
 					}
+					title: "{atm9.quest.pneumatic.autoPlastic}"
+					type: "item"
 				}
-				title: "{atm9.quest.pneumatic.autoPlastic}"
-				type: "item"
-			}]
+				{
+					id: "6FCE49035B32A8BD"
+					item: {
+						Count: 1
+						id: "productivebees:configurable_honeycomb"
+						tag: {
+							EntityTag: {
+								type: "productivebees:plastic"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.pneumatic.autoPlastic}"
 			x: 15.0d
 			y: 4.0d
 		}

@@ -19,7 +19,7 @@
 		{ count: 5, item: "pneumaticcraft:plastic_brick_red", random_bonus: 5, weight: 0.2f }
 		{ count: 5, item: "pneumaticcraft:plastic_brick_white", random_bonus: 5, weight: 0.2f }
 		{ count: 5, item: "pneumaticcraft:plastic_brick_yellow", random_bonus: 5, weight: 0.2f }
-		{ count: 5, item: "industrialforegoing:plastic", random_bonus: 5 }
+		{ count: 5, item: "pneumaticcraft:plastic", random_bonus: 5 }
 		{ item: "pneumaticcraft:elevator_base", random_bonus: 1 }
 		{ item: "pneumaticcraft:elevator_caller", random_bonus: 1 }
 		{ count: 5, item: "pneumaticcraft:elevator_frame", random_bonus: 5 }
