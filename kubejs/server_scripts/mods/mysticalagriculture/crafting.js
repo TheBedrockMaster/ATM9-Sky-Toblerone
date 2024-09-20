@@ -107,6 +107,11 @@ ServerEvents.recipes(event => {
     E: 'mysticalagriculture:turtle_essence'
   }).id('kubejs:mysticalagriculture/turtle_egg')
 
+    // add recipe to make water from water essence
+  event.shaped('2x chemlib:water', ['   ', '   ', 'EEE'], {
+    E: 'mysticalagriculture:water_essence'
+  }).id('kubejs:mysticalagriculture/chemlib_water')
+
   // remove gaia crux
   event.remove({ id: "mysticalagradditions:gaia_spirit_crux" })
 })
