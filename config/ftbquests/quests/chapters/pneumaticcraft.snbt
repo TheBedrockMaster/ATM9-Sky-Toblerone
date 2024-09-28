@@ -762,7 +762,7 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.pneumatic.oil}"
-			x: 6.0d
+			x: 6.5d
 			y: 4.0d
 		}
 		{
@@ -865,7 +865,7 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.pneumatic.heat}"
-			x: 6.0d
+			x: 6.5d
 			y: 5.5d
 		}
 		{
@@ -894,7 +894,7 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.pneumatic.betterHeat}"
-			x: 6.0d
+			x: 6.5d
 			y: 7.0d
 		}
 		{
@@ -2207,8 +2207,8 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.pneumatic.enchants}"
-			x: 4.0d
-			y: 5.5d
+			x: 3.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["40F634AC38F42B88"]
@@ -3924,6 +3924,26 @@
 			}]
 			x: 5.0d
 			y: 3.0d
+		}
+		{
+			can_repeat: false
+			dependencies: ["63F6F4EBCEB914B0"]
+			description: ["{atm9.quest.pneumatic.desc.desert}"]
+			id: "456E95E4AE90190F"
+			rewards: [{
+				id: "70C1E763FE7FF8C1"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{atm9.quest.pneumatic.subt.desert}"
+			tasks: [{
+				id: "640EF7E06C128C68"
+				item: "ars_nouveau:ritual_conjure_island_desert"
+				type: "item"
+			}]
+			title: "{atm9.quest.pneumatic.desert}"
+			x: 5.0d
+			y: 5.0d
 		}
 	]
 	title: "{atm9.chapters.38.title}"
