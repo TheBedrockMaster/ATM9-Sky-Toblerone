@@ -1823,7 +1823,7 @@
 				{
 					count: 3L
 					id: "0ABEF9E64818FE17"
-					item: { Count: 3, id: "thermal_extra:machine_speed_augment_4" }
+					item: { Count: 3, id: "thermal_extra:abyssal_machine_speed_augment" }
 					type: "item"
 				}
 				{
