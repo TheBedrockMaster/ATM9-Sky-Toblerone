@@ -8,7 +8,11 @@ ServerEvents.recipes( event => {
 			C: 'minecraft:clock',
 			B: 'minecraft:glass_bottle'
 	  }) 
-	
+	  
+	  // Fixing Amethyst Crafting
+	  event.remove({ id: 'absentbydesign:trapdoor_amethyst' })
+	   event.shaped('4x absentbydesign:trapdoor_amethyst', ['AA', 'AA'], { A: 'minecraft:amethyst_block'})
+
 	  // Teleport pad
 	  event.remove({id: 'allthemodium:teleport_pad'})
 	  event.remove({id: /exdeorum:.+?_compressed_sieve/})

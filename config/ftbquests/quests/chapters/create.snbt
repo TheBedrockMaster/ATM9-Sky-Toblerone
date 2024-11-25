@@ -143,8 +143,8 @@
 				item: "create:encased_fan"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 1.5d
+			x: 7.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["17885C2DE986F1BD"]
@@ -233,7 +233,7 @@
 				item: "create:mechanical_mixer"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 11.0d
 			y: 1.5d
 		}
 		{
@@ -261,7 +261,7 @@
 				item: "create:blaze_burner"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 8.5d
 			y: 1.5d
 		}
 		{
@@ -291,7 +291,7 @@
 			}]
 			title: "{atm9.quest.create.mechanicalPistons}"
 			x: 3.5d
-			y: -2.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["4F95F00ED78FBAB9"]
@@ -420,7 +420,7 @@
 				item: "create:portable_storage_interface"
 				type: "item"
 			}]
-			x: 13.5d
+			x: 14.0d
 			y: 4.0d
 		}
 		{
@@ -468,7 +468,7 @@
 				item: "create:brass_casing"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 12.5d
 			y: 4.0d
 		}
 		{
@@ -498,8 +498,8 @@
 				item: "create:mechanical_arm"
 				type: "item"
 			}]
-			x: 13.5d
-			y: 2.5d
+			x: 14.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["0F16498769DFB3B0"]
@@ -522,8 +522,8 @@
 				item: "create:brass_funnel"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 3.5d
+			x: 10.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["0F16498769DFB3B0"]
@@ -546,8 +546,8 @@
 				item: "create:brass_tunnel"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 5.0d
+			x: 11.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["17885C2DE986F1BD"]
@@ -558,8 +558,8 @@
 				item: "create:depot"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -1.0d
+			x: 5.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["2D41B04C75FA02BC"]
@@ -642,8 +642,8 @@
 				item: "create:mechanical_crafter"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 2.5d
+			x: 12.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["17885C2DE986F1BD"]
@@ -654,8 +654,8 @@
 				item: "create:gantry_carriage"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 0.5d
+			x: 3.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["7F0D59EC1573FDC0"]
@@ -667,7 +667,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: -2.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["3D2A03EB2B91E9C1"]
@@ -723,8 +723,8 @@
 				item: "create:rope_pulley"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -1.5d
+			x: 6.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["3F663416E824720C"]
@@ -758,8 +758,8 @@
 				item: "create:piston_extension_pole"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -1.0d
+			x: 4.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["3F663416E824720C"]
@@ -794,7 +794,7 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.create.brass}"
-			x: 10.5d
+			x: 11.0d
 			y: 3.0d
 		}
 		{
@@ -871,6 +871,86 @@
 			]
 			x: -3.5d
 			y: 0.0d
+		}
+		{
+			dependencies: ["2D41B04C75FA02BC"]
+			description: ["{atm9.quest.create.desc.fluidTank}"]
+			id: "41DBFEEC12FFF8FF"
+			tasks: [{
+				count: 4L
+				id: "3DB1388A984B374D"
+				item: { Count: 4, id: "create:fluid_tank" }
+				type: "item"
+			}]
+			title: "{atm9.quest.create.fluidTank}"
+			x: 9.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"41DBFEEC12FFF8FF"
+				"1B182A30604655E2"
+			]
+			description: [
+				"{atm9.quest.create.desc.steamEngine}"
+				""
+				""
+				"{image:atm:textures/questpics/create/basic_engine.png width:228 height:100 align:center fit:true}"
+			]
+			id: "197EEDC9A29AE658"
+			tasks: [{
+				id: "4645A038758D81DC"
+				item: "create:steam_engine"
+				type: "item"
+			}]
+			title: "{atm9.quest.create.steamEngine}"
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["197EEDC9A29AE658"]
+			description: [
+				"{atm9.quest.create.desc.scalingup}"
+				""
+				""
+				"{image:atm:textures/questpics/create/max_engine.png width:200 height:290 align:center fit:true}"
+			]
+			id: "11C2DD79FF4A15B9"
+			tasks: [{
+				id: "106F64860744988E"
+				title: "Scaling Up!"
+				type: "checkmark"
+			}]
+			title: "{atm9.quest.create.scalingup}"
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["17885C2DE986F1BD"]
+			description: ["{atm9.quest.create.desc.rollingMill}"]
+			id: "76CDFDF824583924"
+			tasks: [{
+				id: "49563357D5F757E0"
+				item: "createaddition:rolling_mill"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"76CDFDF824583924"
+				"1B182A30604655E2"
+			]
+			description: ["{atm9.quest.create.desc.straw}"]
+			id: "0452F4E91DEFBDF2"
+			tasks: [{
+				id: "3386DA43E68A986F"
+				item: "createaddition:straw"
+				type: "item"
+			}]
+			x: 7.75d
+			y: 2.5d
 		}
 	]
 	title: "{atm9.chapters.18.title}"
