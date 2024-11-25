@@ -8,12 +8,12 @@
 	id: "1883B79BDB2AAE5D"
 	images: [{
 		height: 0.3d
-		hover: ["{atm9.quest.ae2.img.star}"]
+		hover: ["atm9.quest.ae2.img.star"]
 		image: "allthetweaks:item/atm_star"
 		rotation: 0.0d
 		width: 0.3d
-		x: 24.0d
-		y: 1.8d
+		x: 27.5d
+		y: 2.0d
 	}]
 	order_index: 3
 	progression_mode: "flexible"
@@ -2653,7 +2653,7 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["3A20210242A1C865"]
+			dependencies: ["3B2C198F26EC923F"]
 			description: [
 				"{atm9.quest.botania.desc.gaiaSpiritQuest.1}"
 				""
@@ -2692,7 +2692,7 @@
 				}
 			]
 			title: "{atm9.quest.botania.summoningGuardianOfGaia}"
-			x: 22.5d
+			x: 26.5d
 			y: 2.5d
 		}
 		{
@@ -2948,7 +2948,7 @@
 				item: "botania:gaia_spreader"
 				type: "item"
 			}]
-			x: 24.5d
+			x: 28.5d
 			y: 4.0d
 		}
 		{
@@ -2990,7 +2990,7 @@
 				}
 			]
 			title: "{atm9.quest.botania.gaiaSpirits}"
-			x: 24.5d
+			x: 28.5d
 			y: 2.5d
 		}
 		{
@@ -3017,7 +3017,7 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.botania.guardianOfGaia2}"
-			x: 26.0d
+			x: 30.0d
 			y: 2.5d
 		}
 		{
@@ -3045,7 +3045,7 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.botania.diceOfFate}"
-			x: 28.0d
+			x: 32.0d
 			y: 2.5d
 		}
 		{
@@ -3170,7 +3170,7 @@
 				item: "botania:thor_ring"
 				type: "item"
 			}]
-			x: 29.0d
+			x: 33.0d
 			y: 4.5d
 		}
 		{
@@ -3199,7 +3199,7 @@
 				}
 				type: "item"
 			}]
-			x: 27.0d
+			x: 31.0d
 			y: 4.5d
 		}
 		{
@@ -3217,7 +3217,7 @@
 				item: "botania:loki_ring"
 				type: "item"
 			}]
-			x: 30.0d
+			x: 34.0d
 			y: 3.5d
 		}
 		{
@@ -3235,7 +3235,7 @@
 				item: "botania:infinite_fruit"
 				type: "item"
 			}]
-			x: 30.0d
+			x: 34.0d
 			y: 1.5d
 		}
 		{
@@ -3253,7 +3253,7 @@
 				item: "botania:king_key"
 				type: "item"
 			}]
-			x: 29.0d
+			x: 33.0d
 			y: 0.5d
 		}
 		{
@@ -3271,7 +3271,7 @@
 				item: "botania:flugel_eye"
 				type: "item"
 			}]
-			x: 27.0d
+			x: 31.0d
 			y: 0.5d
 		}
 		{
@@ -4061,7 +4061,7 @@
 				type: "item"
 			}]
 			title: "{atm9.quest.botania.gaiaGearAndTrinkets}"
-			x: 24.5d
+			x: 28.5d
 			y: 1.0d
 		}
 		{
@@ -4103,6 +4103,105 @@
 			]
 			x: 5.0d
 			y: 4.0d
+		}
+		{
+			dependencies: ["3A20210242A1C865"]
+			description: ["{atm9.quest.botania.desc.asgard}"]
+			id: "26B836339560E939"
+			rewards: [
+				{
+					count: 16
+					id: "46848D42121019A4"
+					item: "botania:livingrock"
+					type: "item"
+				}
+				{
+					id: "785EBC463F229F3E"
+					item: "botania:rainbow_rod"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "032E4D0AB1C0DB57"
+				item: "mythicbotany:asgard_rune"
+				type: "item"
+			}]
+			title: "{atm9.quest.botania.asgard}"
+			x: 22.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["26B836339560E939"]
+			description: ["{atm9.quest.botania.desc.infuser}"]
+			id: "6A0ED6CCE3C4BDFE"
+			rewards: [
+				{
+					id: "5F247F0CF40DAAB0"
+					item: "botania:elementium_ingot"
+					type: "item"
+				}
+				{
+					id: "6DAD7BD5FBB37E40"
+					item: "botania:dragonstone"
+					type: "item"
+				}
+				{
+					id: "4350666A5D34A653"
+					item: "botania:pixie_dust"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "17D6D091E1471D51"
+					item: "mythicbotany:mana_infuser"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "0AA574DCF3E6E20B"
+					item: { Count: 5, id: "botania:shimmerrock" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "585F40388A8290CC"
+					item: { Count: 4, id: "minecraft:gold_block" }
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.botania.infuser}"
+			x: 23.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6A0ED6CCE3C4BDFE"]
+			description: ["{atm9.quest.botania.desc.aflsteel}"]
+			id: "3B2C198F26EC923F"
+			rewards: [
+				{
+					id: "5C168248E42E113D"
+					item: "mythicbotany:alfsteel_ingot"
+					type: "item"
+				}
+				{
+					id: "2C2B1E73D4C6AA61"
+					item: "mythicbotany:alfsteel_template"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "1751DDCDC353CF69"
+				item: "mythicbotany:alfsteel_ingot"
+				type: "item"
+			}]
+			title: "{atm9.quest.botania.aflsteel}"
+			x: 25.0d
+			y: 2.5d
 		}
 	]
 	title: "{atm9.chapters.27.title}"

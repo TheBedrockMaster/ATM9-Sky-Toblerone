@@ -1185,7 +1185,7 @@
 	"atm9.quest.rs.16384kstorage": "&b16384k Storage Part&r",
 	"atm9.quest.rs.16384kfluid": "&616384k Fluid Part&r",
 	"atm9.quest.rs.65536kfluid": "&e65536k Fluid Part&r",
-	"atm9.quest.rs.262144kfluid": "&262144k Fluid Part&r",
+	"atm9.quest.rs.262144kfluid": "&2262144k Fluid Part&r",
 	"atm9.quest.rs.1048576kfluid": "&b1048576k Fluid Part&r",
 	"atm9.quest.rs.network": "Accessing Our Network Storage",
 	"atm9.quest.rs.crafting_grid": "Crafting Grid",
@@ -4051,6 +4051,12 @@
     "atm9.quest.botania.desc.gaiaTrinkets.2": "You can find all of the descriptions within the &aLexica Botania&r.",
     "atm9.quest.botania.gaiaTrinkets": "Gaia Trinkets",
     "atm9.quest.botania.gaiaGearAndTrinkets": "&aGaia Gear and Trinkets&r",
+	"atm9.quest.botania.asgard": "Mythic Botany",
+	"atm9.quest.botania.desc.asgard": "Mythic Botany is addition to Botania which adds more content to the End Game. \\n\\nIn 9Sky we are only doing a quick pitstop into Mythic Botany, if you wish to have a more extensive set of Quests for it then look for ATM10! \\n\\nTo start off with Mythic Botany, you'll want the Rune of Asgard.",
+	"atm9.quest.botania.infuser": "Mana-Infuser Multiblock",
+	"atm9.quest.botania.desc.infuser": "The Terrasteel Agglomeration is great and all but we need better! \\n\\nSet up a checkerboard pattern of 5 Shimmerrocks. Then fill the other 4 spots with Blocks of Gold. Finally place down the Mana Infuser on the middle Shimmerrock. \\n\\nSimilar to the Terrasteel Agglomeration you'll need Sparks to move Mana to it. The Spark will need a Dominant Augment to work the Mana Infuser though. \\n\\nYou can now make AlfSteel and TerraSteel at half the cost!",
+	"atm9.quest.botania.aflsteel": "Alfsteel",
+	"atm9.quest.botania.desc.aflsteel": "By combining Dragonstone, Pixie Dust, and an Elementium Ingot plus 1.5 Mana Pools, you'll get AlfSteel! \\n\\nIf you're just here for the Star just craft the Ingot into Nuggets then make your Pylons. \\n\\nIf you actually care about using AlfSteel then keep reading! AlfSteel is Botanias version of Netherite. You can upgrade TerraSteel with an AlfSteel Ingot and Smithing Template. \\n\\nTo get the Smithing Template you need to kill Witches or Evokers with an Elementium Sword or other Botania Swords.",
 
 
 	"atm9.quest.forbiddenAndArcanus.desc.newArmor.1": "Forbidden and Arcanus adds new ways to get better armor, enchants, and more!",
